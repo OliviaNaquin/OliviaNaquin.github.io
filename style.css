@@ -105,6 +105,12 @@ h2, h3 {
   color: #454545;
 }
 
+#portfolio-body {
+  background-image: url(https://mcdn.wallpapersafari.com/medium/60/69/IlWuz7.png);
+  background-size: cover;
+  background-position: top;
+}
+
 /* responsive web design */
 @media screen and (min-width: 120px) and (max-width: 1080px) {
   main {

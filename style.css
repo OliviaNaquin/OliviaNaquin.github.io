@@ -1,6 +1,7 @@
 body {
     background-image: url(https://miro.medium.com/v2/resize:fit:1400/1*_zqJUXJaDneHRrXeXtR5vQ.webp);
     background-size: cover;
+    backdrop-filter: blur(5px);
     padding: 10px;
     font-family: 'Courier Prime', monospace;
 }

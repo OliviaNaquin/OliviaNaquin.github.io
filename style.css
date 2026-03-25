@@ -161,3 +161,31 @@ h2, h3 {
     justify-content: center;
   }
 }
+
+div.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.image-item {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 180px;
+}
+
+div.image-item img {
+  width: 100%;
+  height: auto;
+}
+
+div.image-item div.desc {
+  padding: 5px;
+  text-align: center;
+}
+
+#images-body {
+  background-image: url(https://wallpaperaccess.com/full/9368833.jpg);
+  background-size: cover;
+  background-position: top;
+}
